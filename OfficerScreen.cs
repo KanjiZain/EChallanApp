@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace EChallanApp
 {
-    public partial class Form2 : Form
+    public partial class OfficerScreen : Form
     {
-        public Form2()
+        public OfficerScreen()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 form1 = new Form1();
+            OfficerLogin login = new OfficerLogin();
+            login.Show();
+        }
 
-            form1.Show();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
+    
 }
