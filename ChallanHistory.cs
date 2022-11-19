@@ -10,30 +10,28 @@ using System.Windows.Forms;
 
 namespace EChallanApp
 {
-    public partial class MainScreen : Form
+    public partial class ChallanHistory : Form
     {
-        public MainScreen()
+        public ChallanHistory()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            OfficerLogin login = new OfficerLogin();
-            login.Show();
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           this.Hide();
-            AdminLogin login = new AdminLogin();
-            login.Show(); 
+            Application.Exit();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
+            AdminScreen screen = new AdminScreen();
+            screen.Show();
         }
     }
 }

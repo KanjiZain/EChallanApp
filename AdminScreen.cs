@@ -25,14 +25,28 @@ namespace EChallanApp
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            MainScreen screen = new MainScreen();
-            screen.Show();
+            AdminLogin login = new AdminLogin();
+            login.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
             ManageOfficer screen = new ManageOfficer();
+            screen.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OfficerDetails screen = new OfficerDetails();
+            screen.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ChallanHistory screen = new ChallanHistory();
             screen.Show();
         }
     }

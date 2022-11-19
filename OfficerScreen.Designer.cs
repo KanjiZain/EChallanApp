@@ -46,7 +46,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(34, 1);
+            this.label1.Location = new System.Drawing.Point(53, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(257, 31);
             this.label1.TabIndex = 29;
@@ -57,7 +57,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.No;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(82, 35);
+            this.pictureBox1.Location = new System.Drawing.Point(88, 56);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(168, 160);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -69,7 +69,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(297, 1);
+            this.button1.Location = new System.Drawing.Point(330, -1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(21, 21);
             this.button1.TabIndex = 45;
@@ -81,7 +81,7 @@
             // 
             this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::EChallanApp.Properties.Resources.pngaaa_com_3832006_removebg_preview;
-            this.pictureBox5.Location = new System.Drawing.Point(218, 475);
+            this.pictureBox5.Location = new System.Drawing.Point(245, 556);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(100, 50);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -95,7 +95,7 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(82, 286);
+            this.button2.Location = new System.Drawing.Point(91, 330);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(168, 36);
             this.button2.TabIndex = 47;
@@ -108,7 +108,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label2.Location = new System.Drawing.Point(76, 214);
+            this.label2.Location = new System.Drawing.Point(87, 246);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(177, 31);
             this.label2.TabIndex = 48;
@@ -120,7 +120,7 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(82, 356);
+            this.button3.Location = new System.Drawing.Point(91, 400);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(168, 36);
             this.button3.TabIndex = 49;
@@ -132,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(320, 526);
+            this.ClientSize = new System.Drawing.Size(349, 600);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);

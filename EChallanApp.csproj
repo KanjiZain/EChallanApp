@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AdminScreen.Designer.cs">
       <DependentUpon>AdminScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChallanHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChallanHistory.Designer.cs">
+      <DependentUpon>ChallanHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfficerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfficerDetails.Designer.cs">
+      <DependentUpon>OfficerDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>Form</SubType>
@@ -78,14 +97,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminScreen.resx">
       <DependentUpon>AdminScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChallanHistory.resx">
+      <DependentUpon>ChallanHistory.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManageOfficer.resx">
       <DependentUpon>ManageOfficer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfficerDetails.resx">
+      <DependentUpon>OfficerDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfficerLogin.resx">
       <DependentUpon>OfficerLogin.cs</DependentUpon>
