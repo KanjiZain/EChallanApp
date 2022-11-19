@@ -65,6 +65,12 @@
     <Compile Include="ChallanHistory.Designer.cs">
       <DependentUpon>ChallanHistory.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChallanHistoryOfficer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChallanHistoryOfficer.Designer.cs">
+      <DependentUpon>ChallanHistoryOfficer.cs</DependentUpon>
+    </Compile>
     <Compile Include="OfficerDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChallanHistory.resx">
       <DependentUpon>ChallanHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChallanHistoryOfficer.resx">
+      <DependentUpon>ChallanHistoryOfficer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
