@@ -34,5 +34,16 @@ namespace EChallanApp
             AdminScreen screen = new AdminScreen();
             screen.Show();
         }
+
+        private void textBox3_Click(object sender, EventArgs e)
+        {
+            textBox3.Clear();
+        }
+
+        private void textBox4_Click(object sender, EventArgs e)
+        {
+            textBox4.Clear();
+            textBox4.PasswordChar = '*';
+        }
     }
 }

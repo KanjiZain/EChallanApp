@@ -35,6 +35,13 @@ namespace EChallanApp
             ChallanHistoryOfficer screen = new ChallanHistoryOfficer();
             screen.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ScanFace screen = new ScanFace();
+            screen.Show();
+        }
     }
     
 }

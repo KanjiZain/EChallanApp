@@ -83,6 +83,7 @@
             this.textBox4.Size = new System.Drawing.Size(193, 22);
             this.textBox4.TabIndex = 27;
             this.textBox4.Text = "Password";
+            this.textBox4.Click += new System.EventHandler(this.textBox4_Click);
             // 
             // textBox3
             // 
@@ -95,6 +96,7 @@
             this.textBox3.Size = new System.Drawing.Size(193, 22);
             this.textBox3.TabIndex = 26;
             this.textBox3.Text = "Id";
+            this.textBox3.Click += new System.EventHandler(this.textBox3_Click);
             // 
             // pictureBox4
             // 
