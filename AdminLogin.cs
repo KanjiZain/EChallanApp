@@ -31,6 +31,7 @@ namespace EChallanApp
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AdminScreen screen = new AdminScreen();
             screen.Show();
         }

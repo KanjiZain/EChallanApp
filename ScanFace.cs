@@ -16,5 +16,34 @@ namespace EChallanApp
         {
             InitializeComponent();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true)
+            {
+                this.Hide();
+                Under18Form screen = new Under18Form();
+                screen.Show();
+            }
+
+            else
+            {
+                this.Hide();
+                _18PlusForm screen = new _18PlusForm();
+                screen.Show();
+            }
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            AdminScreen screen = new AdminScreen();
+            screen.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

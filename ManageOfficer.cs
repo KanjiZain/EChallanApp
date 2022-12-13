@@ -29,7 +29,7 @@ namespace EChallanApp
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
             AdminScreen admin = new AdminScreen();
             admin.Show();
         }

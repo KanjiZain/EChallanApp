@@ -16,5 +16,29 @@ namespace EChallanApp
         {
             InitializeComponent();
         }
+
+        private void Under18Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            PrintScreenBelow screen = new PrintScreenBelow();
+            screen.Show();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ScanFace screen = new ScanFace();
+            screen.Show();
+        }
     }
 }

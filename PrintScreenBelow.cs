@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace EChallanApp
 {
-    public partial class _18PlusForm : Form
+    public partial class PrintScreenBelow : Form
     {
-        public _18PlusForm()
+        public PrintScreenBelow()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox6_TextChanged(object sender, EventArgs e)
         {
 
         }
@@ -27,17 +27,15 @@ namespace EChallanApp
             Application.Exit();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            PrintScreenAbove screen = new PrintScreenAbove();
-            screen.Show();
+            Application.Exit();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             this.Hide();
-           ScanFace screen = new ScanFace();
+            Under18Form screen = new Under18Form();
             screen.Show();
         }
     }

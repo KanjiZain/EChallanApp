@@ -58,9 +58,9 @@
             this.label2.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label2.Location = new System.Drawing.Point(87, 246);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(175, 31);
+            this.label2.Size = new System.Drawing.Size(191, 31);
             this.label2.TabIndex = 55;
-            this.label2.Text = "Admin Pannel";
+            this.label2.Text = "Manage Officer";
             // 
             // button2
             // 
